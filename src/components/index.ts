@@ -1,0 +1,1 @@
+export { default as RouterTab } from './RouterTab.vue';
