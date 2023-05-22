@@ -1,1 +1,1 @@
-export { default as RouterTab } from './RouterTab.vue';
+export { default as RouterTabs } from './RouterTabs.vue';

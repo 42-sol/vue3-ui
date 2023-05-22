@@ -34,7 +34,7 @@ Then, you can use the components in your application's templates:
 ```html
 <template>
   <div>
-    <RouterTab></RouterTab>
+    <RouterTabs></RouterTabs>
   </div>
 </template>
 

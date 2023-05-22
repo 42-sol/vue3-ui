@@ -1,10 +1,10 @@
 import type { App } from 'vue';
-import { RouterTab } from '@/components';
+import { RouterTabs } from '@/components';
 
 export default {
-    install: (app: App) => {
-        app.component('RouterTab', RouterTab);
-    }
+  install: (app: App) => {
+    app.component('RouterTabs', RouterTabs);
+  }
 };
 
-export { RouterTab };
+export { RouterTabs };
