@@ -1,11 +1,10 @@
 import type { App } from 'vue';
-import { HelloWorld, MyButton } from '@/components';
+import { RouterTabs } from '@/components';
 
 export default {
   install: (app: App) => {
-    app.component('HelloWorld', HelloWorld);
-    app.component('MyButton', MyButton);
+    app.component('RouterTabs', RouterTabs);
   }
 };
 
-export { HelloWorld, MyButton };
+export { RouterTabs };
