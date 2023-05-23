@@ -1,0 +1,49 @@
+{
+  "name": "@42sol/vue3-ui",
+  "private": false,
+  "version": "1.0.0-alpha.2",
+  "type": "module",
+
+  "files": [
+    "dist"
+  ],
+
+  "main": "./dist/v42.umd.js",
+  "module": "./dist/v42.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/v42.es.js",
+      "require": "./dist/v42.umd.js"
+    },
+    "./dist/v42.css": {
+      "import": "./dist/v42.css",
+      "require": "./dist/v42.css"
+    }
+  },
+
+  "types": "./dist/main.d.ts",
+
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.47"
+  },
+  "devDependencies": {
+    "@types/node": "^20.2.3",
+    "@vitejs/plugin-vue": "^4.1.0",
+    "autoprefixer": "^10.4.14",
+    "path": "^0.12.7",
+    "postcss": "^8.4.23",
+    "pug": "^3.0.2",
+    "rollup-plugin-typescript2": "^0.34.1",
+    "sass": "^1.62.1",
+    "tailwindcss": "^3.3.2",
+    "typescript": "^5.0.2",
+    "vite": "^4.3.2",
+    "vite-plugin-dts": "^2.3.0",
+    "vue-tsc": "^1.4.2"
+  }
+}
