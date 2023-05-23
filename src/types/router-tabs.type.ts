@@ -1,10 +1,7 @@
 export interface Tab {
   id: string | number,
-  label: String,
+  label: string,
   props: {
-
-  },
-  listeners: {
-    
+    closable: boolean
   }
-};
+}
